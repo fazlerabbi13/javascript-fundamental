@@ -1,15 +1,15 @@
 // reverslatter
-function reverse(text) {
-    let reversed='';
-    for (let i = text.length-1; i >= 0; i--) {
-        const index = i;
-        const element = text[i];
-        reversed = reversed + element;
-        // console.log(element, reversed);
+// function reverse(text) {
+//     let reversed='';
+//     for (let i = text.length-1; i >= 0; i--) {
+//         const index = i;
+//         const element = text[i];
+//         reversed = reversed + element;
+//         // console.log(element, reversed);
 
-    }
-     return reversed;
-}
+//     }
+//      return reversed;
+// }
 
 // reversword
 function reversword(str){
@@ -21,7 +21,8 @@ function reversword(str){
         result.push(element);
        
     }
-    return result;
+    const reversed = result.join(' ')
+    return reversed;
 }
 const myTitle ="i am a good boy";
 const string = reversword(myTitle);
