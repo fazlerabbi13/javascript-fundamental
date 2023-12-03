@@ -6,3 +6,4 @@ function inchesToFeet(inches){
 const myInches = inchesToFeet(100);
 
  console.log(myInches);
+                                
