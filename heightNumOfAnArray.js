@@ -14,6 +14,6 @@ function largestNumber(numbers) {
 }
 
 
-const myNumbers = [34, 45, 67, 90, 120, 800, 405];
+const myNumbers = [34, 10, 45, 67, 90, 120, 800, 405];
 const largest = largestNumber(myNumbers);
 console.log(largest);
